@@ -1,0 +1,61 @@
+Skilled front-end developer with extensive knowledge of JavaScript and frontend frameworks (React, Vue),
+experienced in developing from scratch and maintaining software systems. Code reviewer and mentor
+
+Outline
+Working for a financial company, providing applications and developing from scratch new services for internal departments
+and over 100,000 users
+
+Key Responsibilities
+- I am updating the CRM system and creating custom components using vuetify
+- Creating landings using UI frameworks like Bootstrap, Element-UI and without them
+- Working with the Web Socket protocol Stomp, implementing and supporting the chat application
+- Working with Keycloak for Authentication and setting up roles
+- Writing email letters
+- Building and deploying the project on the pipelines
+- Migrating to Vue 3, Nuxt 3
+- Code review
+- Setting trends and introducing new features (TypeScript, Vite, Pinia, module architecture)
+
+Key achievements
+- Developed a chat application from scratch in two weeks, this allowed dealers to communicate with customers as quickly as possible
+- Successfully migrated from Vue CLI to Vite, resulting in 30% reduction in build time and 80% reduction in the start time of the working environment
+- Implemented a module architecture in the project. This speeds up development by 20%
+- Provided Typescript to our projects, resulting in 50% decrease in runtime errors
+
+
+Outline
+Worked for a startup. Responsible for writing from scratch services for creating landing pages and services for sellers
+
+Key Responsibilities
+- Creating custom components (Drag-and-drop, calendars, charts, popups)
+- Creating email letters
+- Creating a lot of landing pages for different services
+- Building and deploying the project on the pipelines.
+
+Key achievements
+- I developed from scratch a service for creating landing pages (lnklive.com)
+- I developed from scratch a service for sellers (sellego.com)
+
+
+Outline
+I worked for a startup as a React Native Developer, responsible for troubleshooting and resolving issues in a crypto application
+
+Key Responsibilities
+- Fixing bugs
+- Porting the app from Expo
+- Writing styles using styled components
+
+Key achievements
+- Implemented reactotron redux, this reduced debugging time by 50%
+
+
+Outline
+I Worked at a school platform that teaches front-end and back-end
+
+Key Responsibilities
+- Writing a school platform using HTML, CSS and JS
+- Creating numerous landing pages
+- Sharing knowledge with students
+
+Key achievements
+- Completed 3 landing pages within tight deadlines in 1 week

@@ -1,0 +1,518 @@
+sit - sat - sat
+сидеть
+I sat down
+
+sell - sold - sold
+продавать
+He sold his house
+
+drive - drove - driven
+водить
+He drove home
+
+read - read - read
+читать
+I read it in that article
+
+steal - stole - stolen
+воровать
+The criminal stole the jewelry
+
+grow - grew - grown
+рости
+I grew up in Russia
+
+feel - felt - felt
+чувствовать себя
+I felt very good
+
+win - wan - wan
+выигрывать
+She wan at last
+
+have - had - had
+иметь
+He had a very spacious house
+
+light - lit - lit
+зажигать
+I lit the candle
+
+oversleep - overslept - overslept
+переспать
+I overslept yesterday
+
+overeat - overate - overeaten
+переедать
+He sometimes overate
+
+teach - taught - taught
+учить
+She taught this subject at school
+
+show - showed - shown
+показывать
+The girl showed outstanding results
+
+break - broke - broken
+ломать
+They broke the rule
+
+underpay - underpaid - underpaid
+недоплачивать
+They often underpaid her
+
+forget - forgot - forgotten
+She forgot everything
+
+spoil - spoilt - spoilt
+испортить
+It spoilt there plans
+
+set - set - set
+устанавливать
+He set up a profitable company
+
+run - ran - run
+бегать
+They ran away
+
+keep - kept - kept
+хранить держать
+He kept his money in a safe place
+
+be - was/were - been
+быть
+She was so disappointed
+
+shoot - shot - shot
+cтрелять
+They shot him
+
+swim - swam - swum
+I swam in the lake yesterday
+
+buy - bought - bought
+покупать
+He bought a new car
+
+hide - hid - hidden
+прятать
+She hid behind that tree
+
+forgive - forgave - forgiven
+прощать
+She forgave him
+
+begin - began - begun
+начинать
+Our meeting began much later
+
+do - dit - done
+делать
+You did it very well
+
+take - took - taken
+брать
+She took our offer
+
+hit - hit - hit
+ударить
+They hit the door
+
+smell - smelt - smelt
+пахнуть
+The food smelt very bad
+
+fit - fit - fit
+подходить
+Those clothes fit you perfectly
+
+fight - fought - fought
+сражаться
+He fought for his country
+
+bite - bit - bitten
+укусить
+The dog bit him
+
+foresee - foresaw - foreseen
+предвидеть
+We foresaw these changes
+
+pay - paid - paid
+платить
+I paid for it online
+
+missunderstand - missunderstood - missunderstood
+неправильно понять
+I think you missunderstood me
+
+lose - lost - lost
+терять
+She lost her keys
+
+come - came - come
+приходить
+He came to the meeting later
+
+tear - tore - torn
+рвать
+She tore the papers
+
+can - could
+мочь
+He could come to her quite often
+
+say - said - said
+сказать
+He said it very loudly
+
+think - thought - thought
+думать
+I thought the same
+
+lend - lent - lent
+отдалживать
+They lent him this sum of money
+
+bring - brought - brought
+приносить
+He brought us this document
+
+ride - rode - ridden
+кататься, ездить верхом
+
+He rode a horse yesterday
+
+hurt - hurt - hurt
+ушибиться
+He hurt her feelings
+
+rise - rose - risen
+подниматься вставать
+The price rose by twenty five per cent
+
+get - got - got
+получать
+He got four hundred dollars a month
+
+mean - meant - meant
+намереваться, иметь значение
+He meant to help us
+
+meet - met - met
+встречать
+I met him yesterday
+
+learn - learnt - learnt
+учить
+He learnt English
+
+write - wrote - written
+писать
+He wrote a very long message
+
+send - sent - sent
+отправлять
+I sent her this email
+
+overpay - overpaid - overpaid
+переплачивать
+He sometimes overpaid
+
+sleep - slept - slept
+спать
+He slept too long
+
+understand - understood - understood
+понимать
+We understood his point of view
+
+lay - laid - laid
+ставить
+She laid it on the table
+
+coast - cost - cost
+стоить
+It cost two million
+
+give - gave - given
+давать
+He gave me this advice
+
+lie - lay - lain
+лежать
+He lay down
+
+redo - redid - redone
+переделать
+She redid this exercise
+
+draw - drew - drawn
+рисовать
+They often drew together
+
+go - went - gone
+идти ехать
+She went to work
+
+speak - spoke - spoken
+говорить
+We spoke only English
+
+put - put - put
+класть
+He put it near his computer
+
+wake - woke - woken
+просыпаться
+I woke up very early
+
+stand - stood - stood
+стоять
+We stood up
+
+know - knew - known
+знать
+We knew everything
+
+cut - cut - cut
+резать
+He cut himself yesterday
+
+ring - rang - rung
+звонить, звинеть
+The bell rang two minutes ago
+
+spend - spent - spent
+проводить
+We sometimes spent time together
+
+hear - heard - heard
+слышать
+I heard it only yesterday
+
+withdraw - withdrew - withdrawn
+снять деньги
+I withdrew seven hundred dollars
+
+dig - dug - dug
+копать
+
+lie - lay - lain
+лежать
+
+draw - drew - drawn
+рисовать
+
+rise - rose - risen
+подниматься
+
+think - thought - thought
+думать
+
+go - went - gone
+идти ехать
+
+hurt - hurt - hurt
+
+withdraw - withdrew - withdrawn
+
+show - showed - shown
+
+drive - drove - driven
+
+feel - felt - felt
+
+hold - held - held
+держать
+
+eat - ate - eaten
+
+leave - left - left
+
+can - could
+
+drink - drank - drunk
+
+know - knew - known
+
+overeat - overate - overeaten
+
+understand - understood - understood
+
+smell - smelt - smelt
+
+deal - dealt - dealt
+иметь дело
+
+ride - rode - ridden
+
+begin - began - begun
+
+let - let - let
+
+stand - stood - stood
+
+speak - spoke - spoken
+
+catch - caught - caught
+
+underpay - underpaid - underpaid
+
+win - won - won
+
+fight - fought - fought
+
+mit - met - met
+встречать
+
+tear - tore - torn
+рвать
+
+lay - laid - laid
+
+grow - grew - grown
+
+keep - kept - kept
+
+feed - fed - fed
+
+give - gave - given
+
+foresee - foresaw - foreseen
+
+wear - wore - worn
+
+throw - threw - thrown
+бросать
+
+spend - spent - spent
+
+cut - cut - cut
+
+find - found - found
+
+put - put - put
+
+run - ran - run
+
+have - had - had
+
+read - read - read
+
+learn - learnt - learnt
+
+sink - sank - sunk
+
+hang - hung - hung
+вешать
+
+spoil - spoilt - spoilt
+портить
+
+say - said - said
+
+overcome - overcame - overcome
+преодолеть
+
+sing - sang - sung
+
+forget - forgot - forgotten
+
+make - made - made
+
+sleep - slept - slept
+
+become - became - become
+
+write - wrote - written
+
+burn - burnt - burnt
+
+lend - lent - lent
+
+be - was/were - been
+
+bite - bit - bitten
+
+sell - sold - sold
+
+lose - lost - lost
+
+teach - taught - taught
+
+tell - told - told
+
+fly - flew - flown
+
+ring - rang - rung
+
+come - came - come
+
+fall - fell - fallen
+
+hit - hit - hit
+
+shoot - shot - shot
+
+pay - paid - paid
+
+sit - sat - sat
+
+do - did - done
+
+take - took - taken
+
+fit - fit - fit
+
+coast - coast - coast
+
+mean - meant - meant
+
+wake - woke - woken
+
+buy - bought - bought
+
+swim - swam - swum
+
+oversleep - overslept - overslept
+
+set - set - set
+
+dream - dreamt - dreamt
+
+see - saw - seen 
+
+light - lit - lit
+
+brake - broke - broken
+
+send - sent - sent
+
+hide - hid - hidden
+
+blow - blew - blown
+
+get - got - got
+
+overpay - overpaid - overpaid
+
+steal - stole - stolen
+
+missunderstand - missunderstood - missunderstood
+
+forgive - forgave - forgiven
+
+redo - redid - redone
+
+bring - brought - brought
+
+hear - heard - heard
+
+It smelt bad
+It seems bad
+It sounds bad
+It's bad
+seem/sound/look/be/smell + adjective

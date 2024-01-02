@@ -1,0 +1,1 @@
+function sameFactRev(nMax) {}
