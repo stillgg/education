@@ -1,0 +1,159 @@
+Functional programming
+Category theory
+
+Abstract modelling
+
+Types modelling
+
+imperative model
+
+Object oriented modelling
+
+paradigms for modelling
+
+Imperative paradigm
+prototype-based programming
+OOP
+
+Functional paradigm
+Call stack
+Easier to parallel programm
+
+Not structure programming
+(-) doesn't have scope
+(+) maximum performance
+usage: bios 
+
+Structure programming
+can be a very big piece of code
+
+Procedure programming
+components approach
+
+OOP
+
+Prototype
+
+Functional
+
+Logical
+
+Declarative
+Lisp
+
+Data-driven Programming
+
+programming technologies and code styles:
+- Asynchronous programming(reactor, event loop)
+- Parallel and distributed
+- Object-oriented approach:
+analysis, design and programming
+- visual (er-models, rup tools, other cad/cam, r-schemas)
+
+Paradigm-related and Techniques
+- Reactive Programming (excel table)
+- Event-driven Programming
+- Functional reactive programming
+- Actor model (for parallelism)
+
+- Metaprogramming (generics, auto generate code)
+
+Two main fieds:
+- System Programming (program for programmers)
+- Applied Programming (program is product)
+
+Software engineering tasks
+Handle complexity:
+- complex task/model decomposition
+- hide complexity: module, layers, libs
+
+State management:
+- avoid hidden State
+- minimize global state
+- prevent combinatorial explision
+
+Architecture
+- dividing, naming, binding
+
+How to overcome complexity
+- Divide system into multiple programs
+It is desirable with single responsibility
+- Divide system into abstraction layerse.g. data access, business logic, UI, networking
+- Component-approach: Divide program into modules
+increase reusable code and data structures
+- Separate applied code and system code, because mixing it brings inconsistency and complicating code maintenance
+
+Data & logic
+Separation
+- API + data structures
+- Anemic domain modeling
+- CRUD principles
+- MVC, MVP, MVVP patterns
+
+Combination
+- Imperative, procedural, structural, generic programming and actor model
+- Functional programming
+- Object-oriented programming
+- Component approach
+
+Software development
+
+Development is a much more broader term then programming or coding.
+
+Development:
+- product as a goal,
+- long term maintenance is important,
+- quality and reliabily assurance
+- sustainable life-cycle,
+- task scalability, clusterware, high-load,
+- team and knowledge scalability
+- user experience
+
+Development appraches
+
+Data-centric
+- begin from data structures
+- or ER-diagram and database schema
+Process-centric
+- begin from business process analysis
+- often it requires even process reengineering
+User interface-centric
+- begin from UI sketching and design
+- prototyping UI and UX
+
+Hybrid approach
+Starting from DB we bring complexity to UI and solves no business tasks.
+Starting from business processes we will create monstrous DB and too much different screens.
+Starting from UI we will give a user best experience but will not fill the gap in S/C architecture.
+
+So better way is to use a hybrid approach, which assumes creating holistic informational model and then sythesize three models based on a single:
+- Data model
+- Process model
+- GUI model
+
+NIH (Not Invented Here)
+
+Minimizing dependencies is like living in the forest in the desert.
+
+Bad aspects
+- You doing everything yourself
+- Compatibility issue with the rest of the world
+Good aspects
+- Everything is in a single concept, paradigm, and coding style, just you own responsibility
+- You save research time and discussion time
+- It's easy to you to change everything in code
+
+Application classification
+Local applications
+- window GUI and office software
+- CLI (*nix way utilities, compilers and tools)
+Services
+- DBMS, Data warehouse, Maintenance,
+- Internet services including Web servers,
+Client-side applications
+- Web GUI and window GUI application (C/S arch.)
+- P2P or hybrid apps like skype, torrents, bitcoin, etc.
+System software, OS, Drivers
+Distributed computing apps and GRID
+Microprogramming, firmware and embedded
+
