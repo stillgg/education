@@ -1,0 +1,63 @@
+Statements
+operator assigning: =
+operators comparing: >, <, >=, <=
+arithmetic operators: +, -, *, %, **
+logical operators: &&, ||, !
+operator to call function: '()'
+unary and ternary operators: ?, var++, var--
+
+expression
+(a + b) ** 2
+
+type
+
+Literal
+[], {}, null, undefined
+
+Scalar / Primitive / Atomic value
+
+Reference
+
+Identifier
+
+Assignment
+
+Composed types
+
+Flag
+
+Algorithm
+
+Programm
+
+Engineering
+
+Software engineering
+
+Programming
+
+Coding
+
+Software development
+
+Algorithms + data structures === programs
+
+Block of code
+
+Procedure or Subroutine
+
+Function
+
+Function signature
+
+Method
+
+Loop
+
+Conditional statements
+
+Programming Paradigm
+
+Bad programmers thinking about code, a good programmer thinking about data structures
+
+
