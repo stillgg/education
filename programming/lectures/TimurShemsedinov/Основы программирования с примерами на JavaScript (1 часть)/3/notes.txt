@@ -1,0 +1,36 @@
+Procedure or Subroutine
+
+Call Stack - it's a memory location, where saves function context and return address
+
+Heap and Stack
+
+Recursion
+
+Collection
+
+Modularity
+- reusability
+- easier to integrating
+- improve testing by parts
+
+Import and Export Identifiers
+
+Object / Instance
+
+Class - program abstraction, it combines state(properties and methods) its exemplars(instances)
+
+Instantiation - creating examplar(instances) or getting memory for data structure(Array)
+
+Scope
+Block Scope {}
+Function Scope (var)
+
+Lexical environment
+
+Object context: this
+
+Global context
+(global, window, sandbox)
+if you don't use (const, let) for creating variable you are creating variable in global scope
+
+Frame
