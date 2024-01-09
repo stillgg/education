@@ -1,0 +1,3 @@
+[submodule "programming/lectures/practice/DataTypes"]
+	path = programming/lectures/practice/DataTypes
+	url = https://github.com/HowProgrammingWorks/DataTypes.git
