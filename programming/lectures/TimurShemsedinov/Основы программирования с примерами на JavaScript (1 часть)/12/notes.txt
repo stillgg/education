@@ -1,0 +1,26 @@
+about: What language will you need to learn?
+
+Languages divided
+
+typings:
+1. static typing (defined typings in complication step)
+2. dynamic (defined in runtime)
+
+typing strictness:
+1. strong typing (forbidden to mix up types and don't have automatically type conversion)
+2. weak typing
+
+Manifest typing:
+1. with this (write type manually in code)
+2. type inference (type calculates in runtime)
+
+Duck typing:
+- with (don't check types, check interfaces or properties and methods when you call them)
+- without 
+If it looks like duck and swim like duck it is a duck
+
+level
+- high
+- low
+
+
