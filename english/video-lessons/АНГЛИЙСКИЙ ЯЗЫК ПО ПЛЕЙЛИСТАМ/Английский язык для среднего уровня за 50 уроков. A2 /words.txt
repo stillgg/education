@@ -39,3 +39,9 @@ hold
 
 discover
 
+burn
+
+stranger
+
+kick
+
