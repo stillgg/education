@@ -1,0 +1,2 @@
+Curry and particular using functions
+curry has fixed nesting functions
