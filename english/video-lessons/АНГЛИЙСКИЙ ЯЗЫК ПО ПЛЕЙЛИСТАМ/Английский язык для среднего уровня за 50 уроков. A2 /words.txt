@@ -63,3 +63,8 @@ boil
 
 admire
 
+dig
+
+shave
+
+beard
