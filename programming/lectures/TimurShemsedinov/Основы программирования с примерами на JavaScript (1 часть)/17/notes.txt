@@ -1,0 +1,29 @@
+programming paradigms (review)
+
+imperative 
+
+Non-structured 
+
+structured 
+
+procedural 
+
+object-oriented
+
+prototype-oriented 
+
+functional 
+
+asynchronous
+
+reactive
+
+event driven
+
+metaprogramming
+
+multiparadigm
+
+
+analog getters and setters in oop is lenses
+ 
