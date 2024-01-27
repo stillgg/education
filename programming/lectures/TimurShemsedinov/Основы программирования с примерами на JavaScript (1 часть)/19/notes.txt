@@ -1,0 +1,18 @@
+Antipatterns:
+
+- bad names
+- copy pase
+- duplicate
+- foolproof
+- hardcode
+- improbability
+- magic number
+- magic strings
+- spaghetti code
+JMP, GOTO
+Callbacks
+Events
+- commments
+- silver bullet
+- not invented here
+- accidental complexity
