@@ -1,0 +1,2 @@
+chaining functions and objects, handle errors
+
