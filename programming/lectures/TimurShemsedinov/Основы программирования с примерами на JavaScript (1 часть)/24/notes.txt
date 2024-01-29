@@ -1,0 +1,20 @@
+Antipatterns procedure programming
+
+- unreachable code, dead code
+
+- switch case
+
+- lots of parameters in function
+pattern command in OOP to solve analog problem
+
+- accumulate and fire
+
+- micro optimization, premature optimization
+
+- nested loops
+
+- pyramid of doom
+
+- hidden loops
+
+- long
