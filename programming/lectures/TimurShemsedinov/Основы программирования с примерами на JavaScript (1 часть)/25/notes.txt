@@ -1,0 +1,6 @@
+Question answers
+
+Javascript doesn't have virtual methods like c# java
+
+Pattern adapter, to make interfaces compatible
+
