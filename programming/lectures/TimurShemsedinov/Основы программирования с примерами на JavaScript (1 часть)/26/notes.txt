@@ -1,0 +1,9 @@
+timers and timeouts
+
+Event Loop
+1. timers          // setTimeout, setInterval
+2. I/O callbacks   // callback except close and timers
+3. idle, prepare   // internal use
+4. poll            // incoming: connections, data, etc
+5. check           // setImmediate
+6. close callbacks // .on('close', ...)
