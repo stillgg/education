@@ -50,5 +50,3 @@ will have been + v3
 As it seems to me, this work will have been finished by tomorrow
 
 As it seems to me, everything has just been done properly
-
-
