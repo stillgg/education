@@ -1,0 +1,17 @@
+Passive Voice:
+
+Present Continuous
+am/is/are + being + v3
+
+Present Perfect
+have/has + been + v3
+
+Past Perfect
+had been + v3
+
+Past Continuous
+was/were + being + v3
+
+Future Perfect
+will have been + v3
+
