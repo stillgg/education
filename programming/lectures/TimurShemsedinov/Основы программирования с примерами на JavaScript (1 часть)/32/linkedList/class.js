@@ -26,7 +26,7 @@ class LinkedList {
 
     let index = 0;
 
-    while (callback(tail.value, index) === false) {
+    while (tail !== null && callback(tail.value, index) === false) {
       tail = tail.next;
       index++;
     }
@@ -40,26 +40,21 @@ class LinkedList {
   }
 
   delete(index, count) {
-    const start = this.findNode((item, i) => index === i);
-    const end = this.findNode((item, i) => index + count === i);
+    const startDeletedList = this.findNode((item, i) => index === i);
+    const endDeletedList = this.findNode((item, i) => index + count - 1 === i);
 
-    const isFirstDeleted = start.prev === null;
-    const isLastDeleted = end.next === null;
+    const startNewList = startDeletedList?.prev || null;
+    const endNewList = endDeletedList?.next || null;
 
-    if (isFirstDeleted && isLastDeleted) {
-      this.head = null;
-      this.tail = null;
+    if (startNewList) startNewList.next = end;
+    if (endNewList) endNewList.prev = startNewList;
 
-      return null;
-    } else if (isFirstDeleted) {
-      end.prev = this.tail;
-      this.tail.next = end;
-    } else if (isLastDeleted) {
-      start.next = this.tail;
-      this.tail.prev = start;
-    }
+    this.head = startNewList || endNewList;
 
-    return this.head;
+    if (startDeletedList) startDeletedList.prev = null;
+    if (endDeletedList) endDeletedList.next = null;
+
+    return startDeletedList;
   }
 
   push(value) {
@@ -84,6 +79,7 @@ class LinkedList {
 
   [Symbol.iterator]() {
     let tail = this.head;
+
     return {
       next() {
         if (tail === null) return { done: true };
@@ -108,10 +104,10 @@ linkedList.insert(0, { foo: "0" });
 
 // console.log(linkedList.find((item, index) => index === 0));
 
-console.log(linkedList.delete(1, 1));
+console.log("delete - ", linkedList.delete(0, 2));
 
-// console.dir(linkedList.tail, { depth: 5 });
+console.dir(linkedList.head, { depth: 5 });
 
-// for (const item of linkedList) {
-//   console.log("item - ", item);
-// }
+for (const item of linkedList) {
+  console.log("item - ", item);
+}
