@@ -24,6 +24,7 @@ LinkedList: {
   class LinkedList {
     constructor() {
       this.tail = null;
+      this.head = null;
     }
 
     push(value) {
@@ -32,6 +33,8 @@ LinkedList: {
         value,
         next: null,
       };
+
+      if (this.tail === null) this.head = lastNode;
 
       this.tail = lastNode;
 
@@ -43,6 +46,20 @@ LinkedList: {
 
       return lastNode;
     }
+
+    [Symbol.iterator]() {
+      let tail = this.head;
+      return {
+        next() {
+          if (tail === null) return { done: true };
+
+          const value = tail.value;
+          tail = tail.next;
+
+          return { done: false, value };
+        },
+      };
+    }
   }
 
   const linkedList = new LinkedList();
@@ -51,5 +68,9 @@ LinkedList: {
   linkedList.push({ bar: "2" });
   linkedList.push({ baz: "3" });
 
-  console.dir(linkedList.tail, { depth: 5 });
+  // console.dir(linkedList.tail, { depth: 5 });
+
+  for (const item of linkedList) {
+    console.log("item - ", item);
+  }
 }

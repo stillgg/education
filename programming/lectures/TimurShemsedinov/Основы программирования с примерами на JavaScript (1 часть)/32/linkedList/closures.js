@@ -6,6 +6,8 @@ const linkedList = () => {
       next: null,
     };
 
+    if (node.tail === null) node.head = last;
+
     node.tail = last;
 
     if (node.tail.prev !== null) {
@@ -18,10 +20,30 @@ const linkedList = () => {
   };
 
   node.tail = null;
+  node.head = null;
+
+  node[Symbol.iterator] = () => {
+    let tail = node.head;
+
+    return {
+      next() {
+        if (tail === null) return { done: true };
+
+        const value = tail.value;
+        tail = tail.next;
+
+        return { done: false, value };
+      },
+    };
+  };
 
   return node;
 };
 
 const list = linkedList();
 
-console.dir(list(1)(2)(3).tail, { depth: 3 });
+list(1)(2)(3);
+
+for (const item of list) {
+  console.log("item - ", item);
+}
