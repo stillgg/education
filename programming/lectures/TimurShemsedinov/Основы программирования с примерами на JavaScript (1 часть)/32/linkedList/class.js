@@ -1,4 +1,3 @@
-// .clone():list
 // .compare(list):Boolean
 
 // .find(item => expression:Boolean):data
@@ -58,6 +57,31 @@ class LinkedList {
     const node = this.findNode(callback);
     return node?.value;
   }
+  filter(callback) {
+    let tail = this.head;
+
+    while (tail) {
+      const isDeleted = Boolean(callback(tail.value));
+      const prev = tail.prev;
+      const next = tail.next;
+
+      if (isDeleted) {
+        console.log("prev - ", prev);
+        console.log("next - ", next);
+        if (prev) prev.next = next;
+
+        if (next) next.prev = prev;
+      }
+
+      tail = tail.next;
+    }
+
+    return this.head;
+  }
+
+  findFirst() {
+    return this.findNodeByIndex(0);
+  }
 
   delete(index, count) {
     const startDeletedList = this.findNodeByIndex(index);
@@ -106,31 +130,14 @@ class LinkedList {
   }
 
   clone() {
-    const head = this.head;
-    if (!head) return null;
-
     const cloneLinkedList = new LinkedList();
 
-    let tailCloneList = cloneLinkedList;
-    let tailOriginalList = head;
+    let tail = this.head;
 
-    while (tailOriginalList) {
-      tailOriginalList = tailOriginalList.next;
-
-      if (tailOriginalList === null) break;
-
-      Object.assign(tailCloneList, {
-        next: {
-          prev: tailCloneList,
-          value: tailOriginalList.value,
-          next: null,
-        },
-      });
-
-      tailCloneList = tailCloneList.next;
+    while (tail) {
+      cloneLinkedList.push(tail.value);
+      tail = tail.next;
     }
-
-    console.log("clone - ", cloneLinkedList);
 
     return cloneLinkedList;
   }
@@ -177,3 +184,10 @@ const cloneLinkedList = linkedList.clone();
 for (const item of cloneLinkedList) {
   console.log("clone item - ", item);
 }
+
+// console.log(cloneLinkedList.tail === linkedList.tail);
+
+console.dir(
+  cloneLinkedList.filter((item) => item.foo),
+  { depth: 5 }
+);
