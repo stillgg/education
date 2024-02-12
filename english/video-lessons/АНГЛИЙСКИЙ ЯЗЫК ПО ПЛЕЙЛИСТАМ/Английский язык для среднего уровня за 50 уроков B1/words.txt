@@ -43,3 +43,12 @@ sink
 drow
 
 troops
+
+characterize
+
+afford
+
+truly
+
+hesitate
+
