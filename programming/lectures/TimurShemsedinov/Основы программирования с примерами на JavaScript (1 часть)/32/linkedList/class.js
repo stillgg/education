@@ -57,8 +57,10 @@ class LinkedList {
     const node = this.findNode(callback);
     return node?.value;
   }
+
   filter(callback) {
-    let tail = this.head;
+    const list = this.clone();
+    let tail = list.head;
 
     while (tail) {
       const isDeleted = Boolean(callback(tail.value));
@@ -66,9 +68,8 @@ class LinkedList {
       const next = tail.next;
 
       if (isDeleted) {
-        console.log("prev - ", prev);
-        console.log("next - ", next);
-        if (prev) prev.next = next;
+        if (prev !== null) prev.next = next;
+        else list.head = next;
 
         if (next) next.prev = prev;
       }
@@ -76,7 +77,24 @@ class LinkedList {
       tail = tail.next;
     }
 
-    return this.head;
+    return list;
+  }
+
+  indexOf(data) {
+    let tail = this.head;
+    let isExist = false;
+
+    let i = -1;
+
+    while (tail && isExist === false) {
+      if (tail.value === data) {
+        isExist = true;
+      }
+      i++;
+      tail = tail.next;
+    }
+
+    return isExist ? i : -1;
   }
 
   findFirst() {
@@ -187,7 +205,10 @@ for (const item of cloneLinkedList) {
 
 // console.log(cloneLinkedList.tail === linkedList.tail);
 
-console.dir(
-  cloneLinkedList.filter((item) => item.foo),
-  { depth: 5 }
-);
+const filteredList = cloneLinkedList.filter((item) => item.foo);
+// console.dir({ depth: 5 });
+
+console.log("filter: ");
+console.dir(filteredList, { depth: 5 });
+
+console.log("indexOf - ", filteredList.indexOf(filteredList.tail?.value));
