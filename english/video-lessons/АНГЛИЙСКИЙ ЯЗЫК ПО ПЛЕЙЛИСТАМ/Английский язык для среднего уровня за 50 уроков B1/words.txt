@@ -103,3 +103,7 @@ violate
 sail
 
 admit
+
+weaken
+
+blame
