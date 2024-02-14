@@ -107,3 +107,13 @@ admit
 weaken
 
 blame
+
+warn
+
+predict
+
+persuade
+
+boast
+
+recent
