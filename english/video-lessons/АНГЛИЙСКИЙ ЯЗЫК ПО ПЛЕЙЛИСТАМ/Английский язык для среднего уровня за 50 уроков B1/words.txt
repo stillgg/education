@@ -187,3 +187,9 @@ retire
 differ
 
 conduct
+
+wave
+
+stuck
+
+intend
