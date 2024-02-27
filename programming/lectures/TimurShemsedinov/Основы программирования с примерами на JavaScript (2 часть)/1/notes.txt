@@ -1,0 +1,46 @@
+OOP
+Basic concepts:
+object (state and behaviour)
+model, class, composition
+interface, instantiation
+
+principles: abstract, incapsulation, inheritance, polimorphism
+principles: GRASP, SOLID, DRY, YAGNI, KISS ...
+patterns: Christopher Alexander, GoF
+
+Gang of Four (Gof patterns)
+goal (how to distribute responsibility?)
+GRASP (general responsibility assignment software patterns)
+
+1. Low Coupling
+2. High Cohesion
+3. Information Expert
+4. Creator
+5. Pure Fabrication
+6. Indirection
+7. Protected Variations
+
+SOLID
+goal (how to ensure quick changes in code, extension, modification?)
+(Michael Feathers)
+(Robert Martin)
+
+Adjectives:
+1. easier modification
+2. improving code ownership
+3. easy to understand each other
+
+5 principles:
+1. The Single Responsiblity Princliple
+2. The Open Closed Principle
+3. The Liskov Substitution Principle
+4. The Interface Segregation Principle
+5. The Dependency Inversion Principle (not dependency injection and inversion of control!)
+
+
+GoF
+Design Patterns:
+1. creational (abstract factory, builder, factory method, pool, singleton, ...) 
+2. structural (adapter, bridge, decorator or wrapper, proxy, ...)
+3. behavioral (chain of responsibility, command, observer, iterator, strategy ...)
+4. communicational (cqs, cqrs, event sourcing...)
