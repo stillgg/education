@@ -52,3 +52,27 @@ constant
 temporary
 
 lung
+
+midday / noon
+
+cathedral
+
+mostly
+
+satisfactory
+
+strict
+
+until / till
+
+spelling
+
+corner
+
+open
+closed
+
+villiage
+country
+
+
