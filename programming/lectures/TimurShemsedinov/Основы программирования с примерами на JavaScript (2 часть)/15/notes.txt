@@ -1,0 +1,12 @@
+Антипаттерны ООП (часть 1) c примерами на JavaScript
+
+Accumulate and fire
+- global state
+
+lazy class
+
+feature envy
+- many calls from other class
+
+pass through
+- passing lots of unnesesary arguments
