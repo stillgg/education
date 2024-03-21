@@ -1,0 +1,1 @@
+Перечислимый тип (enum) в JavaScript и TypeScript
