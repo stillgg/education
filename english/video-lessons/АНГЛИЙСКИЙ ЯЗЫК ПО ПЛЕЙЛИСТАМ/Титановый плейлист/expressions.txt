@@ -179,3 +179,8 @@ give up
 
 be over
 
+take a shower === have a shower
+
+
+
+
