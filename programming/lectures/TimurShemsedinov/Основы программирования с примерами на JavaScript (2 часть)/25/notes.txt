@@ -1,0 +1,92 @@
+Почему хорошее ИТ-образование невостребовано рыночком - Глушков Fest 2019
+
+Company types:
+1. Technology company (writing: platforms, database manage systems, operation systems)
+To work in this companies you must have fundamental knowledge of computer science and extensive knowledge of paradigms, language, concepts
+
+2. Product (something what we want to sell and it's bigger than doll shop)
+To work here you must have good at something technology and use framework, library as well
+
+3. Outsorce (sell human hours)
+To work here you must understanding framework, library not necessarily deep, you're cookie cutter
+
+4. shit company (too much routine tasks)
+To work here you must have nothing, if you can writing some working simple code you're good for this company
+
+You need to run somewhere your code, keep data and so one it's about infrastructure
+infrasture types:
+1. bare machine(bare metal)
+When your execution instractions run directly on microcontroller. It's using for writing (boot operation system, memory manager, schedulers and so on)
+Advantages:
+- performance
+
+Disadvantages:
+- you need to reinvent some things to run your code, where in operation system it's in the box
+- difficult to port to another machine
+- problems with testing
+
+2. shared hosting(common web-server)
+When on one server places some website pages in internet
+Advantages:
+- the most common and the cheapest way to put your appllication in internet
+Disadvantages:
+- this solution isn't scaleble and flexible
+
+3. virtualizing
+When you run in one machine several instances servers, machines
+Advantages:
+- performance
+- scaleble
+- opensource solutions (virtual box, QEMU)
+
+4. containerization
+When you place your code in container enviroment (Docker, k8s) with some version of operation system and it can runs on different platforms without troubles
+
+5. clustering
+When you run one system on several machines
+Advantages:
+- reliablity
+
+6. serverless
+It's a cloud computing model. You don't need to worry about servers, storage, network. You only pay for machine resources (firebase)
+
+Advantages:
+- scaleble
+- fast
+- time to market is the highest
+
+Disadvantages:
+- it's too difficult to migrate to another solution
+
+The main programming problems:
+- solve domain problem
+- cope with difficulty
+- manage state
+- architecture and structure
+
+one way to solve domain problem is dsl
+domain specific language
+dsl - language to solve domain problem or problem in industry (html, sql)
+Advantages:
+- domain expertise
+- improve code readablity
+- increasing productivity
+
+Disadvantages:
+- you need to support this language, add features
+- some task with another context isn't be able to solve issue
+- fragmentation, making it harder to manage and maintain the overall software ecosystem
+
+Formalization:
+- patterns
+- standarts RFC, ECMA, ISO
+- models UML, ERD
+- methodology
+- formal languages
+
+architecture means
+- decomposition
+- naming
+- tying
+
+

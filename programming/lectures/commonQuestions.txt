@@ -1,0 +1,3 @@
+1. What is this lecture about, writing some defenitions and explain them shortly
+
+2. What the main reason to use this (technology/tool/approach/idea), write some examples of code if it's possible
