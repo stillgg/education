@@ -1,0 +1,39 @@
+GRASP принципы с адаптацией для JavaScript и Node.js
+
+How to assign responsibility
+
+1. information expert
+Who does need to now about implimentation?
+
+2. creator
+Who creates object?
+Factory, object pools
+
+3. low coupling
+It's about dependencies of some modules if coupling isn't low it leads to
+difficulty code because one module knows about another too much
+
+4. high cohesion
+When in module element have very strong dependencies and it's good because
+it makes module more logical
+
+5. indirection (gof mediator, mvc controller)
+When we was created third class and this class know about other classes
+but other classes don't now about each other
+it provides us low coupling
+
+6. controller
+Who executes business logic, it's something beetween button sale and
+backend logic
+
+7. pure fabrication
+Some abstraction not in problem domain. This helps to reach low coupling,
+flexebility
+(Event Emitter, Promise, Logger, Error)
+
+8. polymorphism
+How to handle different type
+
+9. protected variation
+If we used all another GRASP pattern's we reached this pattern because
+we're protected from a cascading changes when we add something
