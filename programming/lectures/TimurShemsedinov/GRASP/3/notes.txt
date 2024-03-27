@@ -1,0 +1,2 @@
+GRASP: Зацепление и связность в JavaScript и Node.js - coupling and cohesion
+
