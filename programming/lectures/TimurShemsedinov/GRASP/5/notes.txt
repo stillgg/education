@@ -1,0 +1,3 @@
+GRASP: Декомпозиция класса Application из библиотеки impress технологического стека Metarhia
+
+polymorphism
