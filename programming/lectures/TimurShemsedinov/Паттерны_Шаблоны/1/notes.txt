@@ -1,0 +1,10 @@
+Фабрики и пулы объектов в JavaScript, factorify, poolify
+
+instance -> class -> factory -> pool
+
+factory - it's a method or a function which creates something
+
+factorify - it's a function which pass in arguments factory function
+
+pool - it's some object which preallocated in memory and then used in place
+
