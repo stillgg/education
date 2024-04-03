@@ -1,2 +1,6 @@
 Фасад - паттерн для скрытия сложности
 
+Facade is abstraction that incapsulates some logic and provide some interface to manipulate this object
+
+
+
