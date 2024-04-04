@@ -1,0 +1,5 @@
+Стратегия (Strategy) - выбор взаимозаменяемого поведения
+
+Strategy abstraction to decompose some strategies into classes this helpes us to reach
+flexibility and simplicity you don't need to refactor your god class you can
+just move logic into class strategy
