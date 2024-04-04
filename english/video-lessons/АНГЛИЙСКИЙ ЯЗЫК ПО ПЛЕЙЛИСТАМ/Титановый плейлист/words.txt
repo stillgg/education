@@ -63,8 +63,6 @@ satisfactory
 
 strict
 
-until / till
-
 spelling
 
 corner
@@ -168,7 +166,7 @@ receptionist
 
 staff === personnel
 
-awful (ver bad about weather)
+awful (very bad about weather)
 
 diverse
 
@@ -212,8 +210,6 @@ petrol station
 
 weather forecast
 
-briefly === shortly
-
 shortly === briefly
 
 No one === no body
@@ -221,4 +217,9 @@ No one === no body
 remind
 
 unless
+
+home insurance
+
+flight
+
 
