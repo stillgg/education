@@ -1,0 +1,3 @@
+Адаптер (Adapter) - паттерн достижения совместимости
+
+Adapter - it's abstraction which gives interface to communicate with incompatible interface
