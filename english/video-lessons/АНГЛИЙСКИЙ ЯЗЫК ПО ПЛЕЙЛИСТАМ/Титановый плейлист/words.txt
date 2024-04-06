@@ -225,3 +225,9 @@ flight
 plant
 
 properly
+
+alive
+
+praise
+
+treat
