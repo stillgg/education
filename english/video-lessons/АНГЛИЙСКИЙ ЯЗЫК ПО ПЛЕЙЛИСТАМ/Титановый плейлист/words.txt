@@ -231,3 +231,7 @@ alive
 praise
 
 treat
+
+unfairly
+
+approval
