@@ -1,0 +1,6 @@
+Have Objects Failed? Или что не так с ООП?
+
+problems:
+- bad for calculations
+- working with parallel or async is difficult campared with functional languages
+- overengeniring
