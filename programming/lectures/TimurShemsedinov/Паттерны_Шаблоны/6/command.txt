@@ -1,3 +1,3 @@
 Паттерн Команда (Command) действие и параметры как объект
 
-Command - 
+Command - describe operation as a class and this class has one execution method
