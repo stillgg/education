@@ -1,0 +1,9 @@
+Function
+
+Pure Function
+
+Duck typing
+
+Structure programming
+
+Brute force
