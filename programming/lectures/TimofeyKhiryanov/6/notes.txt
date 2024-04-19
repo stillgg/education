@@ -1,0 +1,4 @@
+n**2 sort:
+InsertionSort
+SelectionSort
+BubleSort
