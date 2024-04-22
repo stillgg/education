@@ -259,3 +259,4 @@ faint
 
 motorbike === motorcycle
 
+ladder
