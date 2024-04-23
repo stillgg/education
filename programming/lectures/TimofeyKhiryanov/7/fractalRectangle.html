@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <canvas id="canvas" width="600" height="500"></canvas>
+
+    <script>
+      const canvas = document.getElementById("canvas");
+
+      const ctx = canvas.getContext("2d");
+
+      const centerX = canvas.width / 2;
+      const centerY = canvas.height / 2;
+
+      function createShape(width, height, angle = 45) {
+        ctx.translate(centerX, centerY);
+
+        ctx.rotate((angle * Math.PI) / 180);
+        ctx.rect(-width / 2, -height / 2, width, height);
+        ctx.strokeStyle = "black";
+        ctx.stroke();
+
+        ctx.rotate((-angle * Math.PI) / 180);
+        ctx.translate(-centerX, -centerY);
+      }
+
+      const franctal_square = (size, deep = 1) => {
+        if (deep === 0) return;
+
+        if (deep % 2 === 0) {
+          createShape(size, size, 45);
+        } else {
+          createShape(size, size, 0);
+        }
+
+        const width = Math.sqrt(2) * (size / 2);
+
+        franctal_square(width, deep - 1);
+      };
+
+      franctal_square(300, 9);
+    </script>
+  </body>
+</html>
