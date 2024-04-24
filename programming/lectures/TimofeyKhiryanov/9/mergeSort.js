@@ -1,11 +1,23 @@
 const solution = (arr) => {
   const merge = (left, right) => {
     const res = [];
-    for (let i = 0; i < left.length; i++) {
-        
+    let l = 0;
+    let r = 0;
+
+    while (l < left.length || r < right.length) {
+      const leftNum = left[l] === undefined ? Infinity : left[l];
+      const rightNum = right[r] === undefined ? Infinity : right[r];
+
+      if (leftNum > rightNum) {
+        res.push(rightNum);
+        r++;
+      } else {
+        res.push(leftNum);
+        l++;
+      }
     }
 
-    for (let k = 0; k < right.length; k++) {}
+    return res;
   };
 
   const rec = (arr) => {
@@ -27,13 +39,13 @@ const solution = (arr) => {
 
     const l = rec(left);
     const r = rec(right);
+
+    return merge(l, r);
   };
 
-  rec(arr);
+  return rec(arr);
 };
 
-const arr = [2, 3, 1];
+const arr = [0, 1, -100, 1, 5, 4, 19230, 598, -89];
 
-solution(arr);
-
-console.log(arr);
+console.log(solution(arr));
