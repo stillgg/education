@@ -289,3 +289,6 @@ anyway
 
 stairs
 
+singular / plural
+
+curtains
