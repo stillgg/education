@@ -292,3 +292,7 @@ stairs
 singular / plural
 
 curtains
+
+wonderful
+
+doubts
