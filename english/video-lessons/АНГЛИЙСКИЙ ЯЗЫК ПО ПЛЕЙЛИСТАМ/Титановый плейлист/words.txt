@@ -63,8 +63,6 @@ satisfactory
 
 strict
 
-until / till
-
 spelling
 
 corner
@@ -168,7 +166,7 @@ receptionist
 
 staff === personnel
 
-awful (ver bad about weather)
+awful (very bad about weather)
 
 diverse
 
@@ -212,9 +210,85 @@ petrol station
 
 weather forecast
 
-briefly === shortly
-
 shortly === briefly
 
 No one === no body
 
+remind
+
+unless
+
+home insurance
+
+flight
+
+plant
+
+properly
+
+alive
+
+praise
+
+treat
+
+unfairly
+
+approval
+
+washing machine
+
+host
+
+dessert
+
+fashionable
+
+someday
+
+burn
+
+wedding
+
+scholarship
+
+waitress (female)
+waiter (male)
+
+faint
+
+motorbike === motorcycle
+
+ladder
+
+earthquake
+
+luckily
+
+protection
+
+suppliers
+
+hurricane
+
+subtract
+
+at once === immdeiately
+
+attentively
+
+hug
+
+tightly
+
+interpreter
+
+circumstances
+
+anyway
+
+stairs
+
+singular / plural
+
+curtains
