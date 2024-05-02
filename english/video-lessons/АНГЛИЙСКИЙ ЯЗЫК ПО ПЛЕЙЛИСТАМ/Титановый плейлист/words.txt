@@ -273,7 +273,7 @@ hurricane
 
 subtract
 
-at once === immdeiately
+at once === immediately
 
 attentively
 
