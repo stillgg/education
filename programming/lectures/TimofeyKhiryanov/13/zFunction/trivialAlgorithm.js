@@ -16,5 +16,9 @@ const solution = (s) => {
   return z;
 };
 
-console.log(solution("aabaa"));
+// console.log(solution("aaxaxaaaax"));
+// console.log(solution("abacaba"));
+console.log(solution("abcabcd"));
+
+// console.log(solution("aabaa"));
 // console.log(solution("aabxaayaab"));
