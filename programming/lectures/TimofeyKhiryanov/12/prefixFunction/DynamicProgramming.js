@@ -19,6 +19,8 @@ const solution = (s) => {
 // let s = "abcabcd";
 // let s = "abab";
 // let s = "aa";
-// let s = "aaxaxaaaax";
+let s = "aaxaxaaaax";
 
 console.log(solution(s));
+// console.log(solution("abcdabc"));
+// console.log(solution("aabxaayaab"));

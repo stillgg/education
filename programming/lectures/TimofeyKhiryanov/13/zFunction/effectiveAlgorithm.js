@@ -1,22 +1,45 @@
-// wrong
-
 const solution = (s) => {
   const z = new Array(s.length).fill(0);
 
   for (let i = 1; i < s.length; i++) {
-    let left = z[i - 1];
+    let left = 0;
     let right = i;
     let count = 0;
 
-    let substr1 = s[left];
-    let substr2 = s[right];
-
-    while (substr1 === substr2 && left < right) {
-      count++;
+    while (s[left] === s[right]) {
       left++;
       right++;
-      substr1 = s[left];
-      substr2 = s[right];
+      count++;
+    }
+
+    let start = right - count + 1;
+    let end = 1;
+
+    while (right > start) {
+      if (z[start] + start > right) {
+        // we need to update z box
+        let count = z[end];
+        const tmp = end;
+        let end2 = end;
+
+        let end = z[start] + start;
+
+        while (s[end] === s[end2]) {
+          count++;
+          end++;
+          end2++;
+        }
+
+        z[tmp] = count;
+
+        right++;
+      } else {
+        z[start] = z[end];
+        end++;
+        start++;
+        i = right;
+      }
+      i = right - 1;
     }
 
     z[i] = count;
@@ -25,4 +48,6 @@ const solution = (s) => {
   return z;
 };
 
-console.log(solution("aaxaxaaaax"));
+// console.log(solution("aaxaxaaaax"));
+// console.log(solution("aaxaxaaaax"));
+console.log(solution("aabxaabxcaabxaabxay"));
