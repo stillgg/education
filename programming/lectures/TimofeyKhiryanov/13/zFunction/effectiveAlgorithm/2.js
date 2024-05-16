@@ -3,17 +3,26 @@ const solution = (s) => {
   const z = new Array(len).fill(0);
 
   let left = 0;
-  let right = 1;
+  let right = 0;
   let i = 1;
 
   while (i < len) {
-    const substr1 = s[left];
-    const substr2 = s[right];
+    if (i > right) {
+      // out of the box
+      right = i;
 
-    while (s[right - left - 1] === s[right]) {
-      right++;
+      while (s[right - i] === s[right]) {
+        right++;
+      }
+
+      z[i] = right - 1 - left;
+      left++;
+    } else {
+      // in the box. We've already calculated all the values
+
+      z[i] = z[i - left];
     }
-    z[i] = right - left;
+
     i++;
   }
 
@@ -21,4 +30,5 @@ const solution = (s) => {
 };
 
 console.log(solution("aaaa"));
+// console.log(solution("abab"));
 // console.log(solution("aabxaabxcaabxaabxay"));
