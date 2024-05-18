@@ -20,8 +20,11 @@ const solution = (s) => {
 // let s = "abcabcd";
 let s = "aaxaxaaaax";
 // let s = "aa";
-console.log(solution(s));
+// console.log(solution(s));
 
 // console.log(solution("abcabcd"));
 // console.log(solution("aaaa"));
+
 // console.log(prefix_function("aaaa"));
+
+console.log(solution("aabxaayaab"));
