@@ -322,3 +322,19 @@ audience
 impress
 
 ancient === very old
+
+notebook
+
+hospitality
+
+class === lesson
+
+topic
+
+accent
+
+confident
+
+car crash
+
+avoid
