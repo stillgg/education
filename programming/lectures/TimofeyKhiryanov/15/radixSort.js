@@ -1,7 +1,7 @@
 const solution = (arr) => {
   const max = Math.max(...arr);
 
-  for (let exp = 1; exp < max; exp *= 10) {
+  for (let exp = 1; exp <= max; exp *= 10) {
     const count = new Array(10).fill(0);
     const output = new Array(arr.length);
 
@@ -25,7 +25,7 @@ const solution = (arr) => {
   return arr;
 };
 
-const arr1 = [170, 45, 75, 90, 1000, 802, 24, 2, 66];
+const arr1 = [170, 10000000, 45, 75, 1000, 90, 802, 24, 2, 66];
 
 console.log(solution(arr1));
 // 170 90 802 2 24 45 75 66
