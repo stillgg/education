@@ -1,3 +1,5 @@
+// wrong
+
 const EMPTY = { name: "", cost: 0, weight: 0 };
 
 const max = (...objects) => {
@@ -53,37 +55,56 @@ const solution = (elements, maxWeight) => {
   return matrix[elements.length][len];
 };
 
+// const elements = [
+//   {
+//     name: "guitar",
+//     cost: 1500,
+//     weight: 1,
+//   },
+//   {
+//     name: "radio",
+//     cost: 3000,
+//     weight: 4,
+//   },
+//   {
+//     name: "laptop",
+//     cost: 2000,
+//     weight: 3,
+//   },
+//   {
+//     name: "iphone",
+//     cost: 2000,
+//     weight: 1,
+//   },
+//   {
+//     name: "mp3",
+//     cost: 1000,
+//     weight: 1,
+//   },
+//   {
+//     name: "Jewelry",
+//     weight: 0.5,
+//     cost: 1500,
+//   },
+// ];
+
 const elements = [
-  {
-    name: "guitar",
-    cost: 1500,
-    weight: 1,
-  },
-  {
-    name: "radio",
-    cost: 3000,
-    weight: 4,
-  },
-  {
-    name: "laptop",
-    cost: 2000,
-    weight: 3,
-  },
   {
     name: "iphone",
     cost: 2000,
     weight: 1,
   },
   {
-    name: "mp3",
-    cost: 1000,
-    weight: 1,
+    name: "laptop",
+    cost: 2000,
+    weight: 4,
   },
   {
-    name: "Jewelry",
-    weight: 0.5,
-    cost: 1500,
+    name: "radio",
+    cost: 5000,
+    weight: 6,
   },
 ];
 
-console.log(solution(elements, 9));
+// console.log(solution(elements, 9));
+console.log(solution(elements, 7));
